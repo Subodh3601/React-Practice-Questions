@@ -1,0 +1,24 @@
+/* Write code for your CSS here */
+* {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.app {
+  background-color: rgba(180, 226, 226, 0.5);
+  margin-top: 10%;
+}
+.skills ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+.skills ul li{
+    background-color: aqua;
+    padding: 0.5rem;
+    width: auto;
+    height: auto;
+    border-radius: 0.5rem;
+}
